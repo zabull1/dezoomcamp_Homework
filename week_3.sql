@@ -4,9 +4,6 @@ OPTIONS (
   uris = ['gs://prefect-de-zoomcamp-aminu/fhv_/fhv_tripdata_2019-*.csv.gz']
 );
 
-SELECT * FROM deft-citizen-374601.Week_3_homework.week_3
-LIMIT 100;
-
 
 --Q1 What is the count for fhv vehicle records for year 2019?
 SELECT COUNT(*) FROM deft-citizen-374601.Week_3_homework.week_3_external;
